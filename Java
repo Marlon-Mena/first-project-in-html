@@ -1,0 +1,122 @@
+const conteiner = document.getElementById('container');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login');
+
+registerBtn.addEventListener('click', () => {
+    conteiner.classList.add("active");
+});
+loginBtn.addEventListener('click', () => {
+    conteiner.classList.remove("active");
+});
+
+function cadastro() {
+    window.location.href = "../view/cadastro.html";
+}
+
+function produto1() {
+    window.location.href = "../view/produto.html";
+}
+
+function produto2() {
+    window.location.href = "../view/produto2.html";
+}
+
+function produto3() {
+    window.location.href = "../view/produto3.html";
+}
+
+function produto4() {
+    window.location.href = "../view/produto4.html";
+}
+
+function produto5() {
+    window.location.href = "../view/produto5.html";
+}
+
+function produto6() {
+    window.location.href = "../view/produto6.html";
+}
+
+function produto7() {
+    window.location.href = "../view/produto7.html";
+}
+
+function produto8() {
+    window.location.href = "../view/produto8.html";
+}
+
+function produto9() {
+    window.location.href = "../view/produto9.html";
+}
+
+function produto10() {
+    window.location.href = "../view/produto10.html";
+}
+
+function produto11() {
+    window.location.href = "../view/produto11.html";
+}
+
+function produto12() {
+    window.location.href = "../view/produto12.html";
+}
+
+function produto13() {
+    window.location.href = "../view/produto13.html";
+}
+
+function compra1() {
+    window.location.href = "../view/pagamento.html";
+}
+
+function compra2() {
+    window.location.href = "../view/pagamento2.html";
+}
+
+function compra3() {
+    window.location.href = "../view/pagamento3.html";
+}
+
+function compra4() {
+    window.location.href = "../view/pagamento4.html";
+}
+
+function compra5() {
+    window.location.href = "../view/pagamento5.html";
+}
+
+function compra6() {
+    window.location.href = "../view/pagamento6.html";
+}
+
+function compra7() {
+    window.location.href = "../view/pagamento7.html";
+}
+
+function compra8() {
+    window.location.href = "../view/pagamento8.html";
+}
+
+function compra9() {
+    window.location.href = "../view/pagamento9.html";
+}
+
+function compra10() {
+    window.location.href = "../view/pagamento10.html";
+}
+
+function compra11() {
+    window.location.href = "../view/pagamento11.html";
+}
+
+function compra12() {
+    window.location.href = "../view/pagamento12.html";
+}
+
+function compra13() {
+    window.location.href = "../view/pagamento13.html";
+}
+
+function pix() {
+    window.location.href = "../view/pix.html";
+}
