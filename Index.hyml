@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELETROLOJA</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!--aba de pesquisa / opções-->    
+
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+            <h1 class="logo">Eletro<span>Loja</span></h1>
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Produto</li>
+                    <li>Contato</li>
+                    <li><button onclick="cadastro();return false">Conta</button></li>
+                    <li>Sobre</li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="img/loja.png" />
+                <img src="img/opçõesloja.png" class="menu-button" />
+            </div>
+        </div>
+    </div>
+
+<!--inicio partte 1. começa com a exibição de algum produto destacado-->
+
+    <header>
+        <div class="header-inner-content">
+            <div class="header-bottom-side">
+                <div class="header-bottom-side-left">
+                    <h2>Nova promoção</h2>
+                    <p>Fone de ouvido na promoção! ótimo para ouvir músicas e relaxar
+                        muito usado em viagem e academia, via bluetooth podendo conectar-se 
+                        via celular ou computador </p>
+                    <button onclick="produto1(); return false">Compre &#8594;</button>
+                </div>
+                    <div class="header-bottom-side-right">
+                        <img src="img/pngwing.com.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<!--fotos sobre o produto em destaque-->
+
+        <main>
+            <div class="gray-background">
+                <div class="page-inner-content">
+                    <div class="cols cols-3">
+                        <img src="img/images1.1.jpg" class="headset-1" onclick="produto1()" />
+                        <img src="img/imagem1.2.jpg" class="headset-2" onclick="produto1()" />
+                        <img src="img/imagemteste1.webp" class="headset-2" onclick="produto1()"/>
+                    </div>
+                </div>
+            </div>
+
+<!--parte 2. produtos mais vendidos aparece logo aqui-->
+
+            <div>
+                <div class="page-inner-content">
+                    <h3 class="section-title">Mais vendidos</h3>
+                    <div class="subtitle-underline"></div>
+                    <div class="cols cols-4">
+                        <div class="product">
+                            <img src="img/imagem2.jpg" class="mais-vendidos" onclick="produto2()"/>
+                            <p class="product-name">Alexa</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="product-price">R$ 221,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/imagem3.jpg" class="mais-vendidos" onclick="produto3()"/>
+                            <p class="product-name">Powerbank</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="product-price">R$ 180,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/imagem1.jpg" class="mais-vendidos" onclick="produto4()"/>
+                            <p class="product-name">Headset bluetooth</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                            <p class="product-price">R$ 71,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/white-wireless-optical-mouse-digital-device.jpg" class="mais-vendidos4" onclick="produto5()"/>
+                            <p class="product-name">Mouser whiter</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                            <p class="product-price">R$ 41,00</p>
+                        </div>
+                    </div>
+                </div>
+
+<!--parte 2,5. com outros produtos da loja-->
+
+                <div class="page-inner-content">
+                    <h3 class="section-title">Produtos</h3>
+                    <div class="subtitle-underline"></div>
+                    <div class="cols cols-4">
+                        <div class="product">
+                                <img src="img/xbox.jpg" class="mais-vendidos" onclick="produto6()"/>
+                                <p class="product-name">Xbox series S</p>
+                                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                                <p class="product-price">R$ 3.299,00</p>
+                            </div>
+                            <div class="product">
+                                <img src="img/mousepad.jpg" class="mais-vendidos" onclick="produto7()"/>
+                                <p class="product-name">Mousepad</p>
+                                <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                                <p class="product-price">R$ 241,00</p>
+                            </div>
+                            <div class="product">
+                             <img src="img/teclado mecanico.jpg" class="mais-vendidos" onclick="produto8()"/>
+                                <p class="product-name">Teclado Mecânicp</p>
+                                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                                <p class="product-price">R$ 330,00</p>
+                            </div>
+                            <div class="product">
+                                <img src="img/rtx3060.jpg" class="mais-vendidos4" onclick="produto9()"/>
+                                <p class="product-name">Rtx 3060</p>
+                                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                                <p class="product-price">R$ 2.699,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/munitor.jpg" class="mais-vendidos" onclick="produto10()"/>
+                            <p class="product-name">Monitor 180Hz</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="product-price">R$ 872,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/celular.jpg" class="mais-vendidos" onclick="produto11()"/>
+                            <p class="product-name">Sansung S23 Ultra</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                            <p class="product-price">R$ 4.049,09</p>
+                        </div>
+                        <div class="product">
+                         <img src="img/mousegamer.jpg" class="mais-vendidos" onclick="produto12()"/>
+                            <p class="product-name">Mouse Redragon</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                            <p class="product-price">R$ 129,00</p>
+                        </div>
+                        <div class="product">
+                            <img src="img/controleps5.jpg" class="mais-vendidos4" onclick="produto13()"/>
+                            <p class="product-name">Controle PS5</p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="product-price">R$ 387,00</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+<!--Parte 3 que fica uma exibição de um produto destacado-->
+
+            <div class="gray-background">
+                <div class="header-inner-content">
+                    <div class="header-bottom-side exclusive-container">
+                        <div class="header-bottom-side-left">
+                            <h2>Monte seu Pc Gamer</h2>
+                            <p>Gostaria de montar o seu pc gamer, aqui você consegue montar com
+                                um ótimo custo-benéficio, além da entrega ser super rápida.
+                                Clique no botão abaixo para fazer a montagem</p>
+                            <button>Monte se Pc &#8594;</button>
+                        </div>
+                            <div class="header-bottom-side-right">
+                                <img src="img/pcgamer.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--Parte 4 que fica responsável pelos comentários-->   
+
+            <div>
+                <div class="page-inner-content">
+                    <div class="comments">
+                        <div class="comment">
+                            <p>"</p>
+                            <p>Gostei do produto, comprei um headset, chegou
+                               em pouco tempo, acho que uns 5 dias, funcionado super bem
+                            </p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p>Michael Bittencourt</p>
+                        </div>
+                        <div class="comment">
+                            <p>"</p>
+                            <p>Comprei um mouse, muito bom, veio bem embalado
+                                todo funcionando, além de ter chegado em apenas 7 dias
+                            </p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p>Pedro Assunção</p>
+                        </div>
+                        <div class="comment">
+                            <p>"</p>
+                            <p>Peguei um notebook, chegou super rápido, a loja ainda me deu 2 anos
+                                de garantia, chegou em perfeito estado
+                            </p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p>Caio fonseca</p>
+                        </div>
+                        <div class="comment">
+                            <p>"</p>
+                            <p>Gostei da montagem de computadores, montei um para mim,
+                                saiu com um ótimo custo-benéficio
+                            </p>
+                            <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                            <p>João Henrique</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+<!--Aqui fica a parte 5 do site, com linkes, logo, confimações
+de segurança e adaptação para androide, e copyright-->
+
+        <footer class="gray-background">
+            <div class="page-inner-content footer-content">
+                <div class="download-options">
+                    <p>Agora tem para androide</p>
+                    <p>Baixe nossa aplicação para androide</p>
+                    <div>
+                        <img src="img/pngegg.png" alt="">
+                        <img src="img/LOGOBAIXA.png" alt="">
+                    </div>
+                </div>
+
+                <div class="logo-footer">
+                    <h1 class="logo">Eletro<span>Loja</span></h1>
+                    <p>Loja de eletronico, com garantia em todos os itens e com muita variedades</p>
+                </div>
+
+                <div class="links-footer"></div>
+                    <h3></h3>
+                        <ul>
+                            <li><h3>Links</h3></li>
+                            <li>Cupons</li>
+                            <li>Politicas</li>
+                            <li>Suport</li>
+                            <li>Torne-se alifiado</li>
+
+                        </ul>
+                </div>
+            <div class="page-inner-content copyright">
+                <p>Copyright 2024 - Marlon M. M. Alves - Todos os direitos</p>
+            </div>
+        </footer>
+
+
+<!--scripts para o botão de opções-->
+
+    <script>
+        const navbar= document.querySelector(".navbar");
+        const menubutton = document.querySelector(".menu-button");
+
+        menubutton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+
+        
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
